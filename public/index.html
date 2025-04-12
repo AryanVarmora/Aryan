@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aryan's Portfolio</title>
+    <link rel="stylesheet" href="src/styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loading-content">
+            <h1>PORTFOLIO EXPLORER</h1>
+            <div class="progress-container">
+                <div class="progress-bar"></div>
+            </div>
+            <p class="loading-text">Loading cosmic experience...</p>
+        </div>
+    </div>
+    
+    <!-- Instructions -->
+    <div id="instructions">
+        <p>Drag to rotate carousel</p>
+        <p>Click on a section to explore</p>
+        <p>ESC to return to overview</p>
+    </div>
+    
+    <!-- Audio Controls -->
+    <div id="audio-controls">
+        <button id="toggle-audio">
+            <span class="icon">🔊</span>
+        </button>
+    </div>
+    
+    <!-- Main Container -->
+    <div id="app"></div>
+    
+    <!-- UI Info Panel -->
+    <div id="info-panel" class="hidden">
+        <div class="close-btn">×</div>
+        <div class="panel-content">
+            <!-- Content will be dynamically populated -->
+        </div>
+    </div>
+    
+    <!-- Scripts -->
+    <script type="module" src="src/index.js"></script>
+</body>
+</html>
